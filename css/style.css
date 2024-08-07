@@ -1,0 +1,508 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    @import url('https://fonts.googleapis.com/css2?family=Arima:wght@300;400;500;600;700&family=Handlee&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+    font-family: 'Arima', cursive;
+    font-family: 'Handlee', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+}
+
+li{
+    list-style: none;
+}
+
+i{
+    color: #16c9f6;
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 168,255,0.3), rgba(0, 168,255,0.3)), url('../images/header3.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    clip-path: polygon(100% 0%, 100% 75%, 50% 100%, 0 75%, 0 0);
+    position: relative;
+}
+
+.navbar-brand .cart{
+    font-size: 30px;
+    color: #f48515;
+}
+
+.navbar-brand .krish{
+    color: #f4159f;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.navbar-brand .tem{
+    font-size: 25px;
+    color: darkslategrey;
+    font-style: italic;
+}
+
+.nav-item{
+    margin-left: 20px;
+}
+
+.navbar-nav .nav-link{
+    color: white;
+    font-size: 18px;
+    line-height: 15px;
+
+    font-family: 'Roboto', sans-serif;
+    transition: all 0.4s;
+}
+
+.nav-link:hover{
+    color: #f48515;
+}
+
+.header::before{
+    content: "";
+    top: 0%;
+    left: 0;
+    right: 0;
+    bottom: 0%;
+    opacity: .4;
+    z-index: -1;
+    position: absolute;
+    background: linear-gradient(to right, #74aff2 1%, #3ccdbb 1%, #16c9f6 80%);
+}
+
+
+.navbar-nav::before{
+    content: "";
+    top: 0%;
+    left: 0;
+    right: 0;
+    bottom: 0%;
+    opacity: .4;
+    z-index: -1;
+    position: absolute;
+    background: linear-gradient(to right, #74aff2 1%, #3ccdbb 1%, #16c9f6 80%);
+}
+
+
+.header-section{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.header-section p{
+    padding-top: 14px;
+    padding-bottom: 12px;
+
+}
+
+.header-section a{
+    padding: 8px 20px;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 30px;
+    text-decoration: none;
+    color: azure;
+    font-size: 14px;
+    line-height: 12px;
+    font-weight: 700;
+    transition: all 0.4s;
+}
+
+.header-section a:hover{
+    color: #f4159f;
+    background: white;
+    box-shadow: 0, 0, 0, 0.4px;
+}
+
+.header-section .center{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+
+
+/* =================================header ends======================================== */
+
+
+
+/* =================================header extra start======================================== */
+    .header-extra{
+        width: 100%;
+        height: auto;
+        margin: 100px 0;
+    }
+
+    .header-extra h2{
+    
+    }
+
+    .header-extra .extra{
+        text-align: center;
+        padding: 50px;
+        border-radius: 5px;
+        transition: all 0.4s;
+    }
+
+    .extra:hover{
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+        transform: translateY(-20px);
+    }
+/* =================================header extra ends======================================== */
+
+
+
+/* =================================offer section start======================================== */
+
+
+    .service-section{
+        background: #f7f7f9;
+        padding: 50px 0;
+        margin-bottom: 50px;
+    }
+
+    .service-section .heading{
+        margin-bottom: 50px;
+    }
+
+    .heading h1{
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
+    .names h2{
+        font-size: 14px;
+        color: #2e2e2e;
+        font-weight: bold;
+    }
+
+    .servicediv .text h2{
+        font-size: 15px;
+        text-align: justify;
+    }
+
+    .progress{
+        height: 8px !important;
+        background: #606066;
+        margin-bottom: 25px !important;
+    }
+
+
+/* =================================offer section ends======================================== */
+
+
+/* =================================project section start======================================== */
+
+.project-section{
+    margin: 100px 0;
+}
+
+.progress h2{
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* =================================project section ends======================================== */
+
+
+
+/* =================================pricing section start======================================== */
+.pricing-section{
+    width: 100%;
+    height: 100vh;
+    padding: 50px;
+    position: relative;
+}
+
+.pricing-section::before{
+    content: "";
+    top: 0%;
+    left: 0;
+    right: 0;
+    bottom: 0%;
+    z-index: -1;
+    position: absolute;
+    background: linear-gradient( 160deg, #3ccdbb 55%, #fff 0%);
+}
+
+.pricing-section .card{
+    transition: 0.4s ease;
+}
+
+.pricing-section .card:hover{
+    transform: translateY(-21px);
+    box-shadow: 0, 0, 20px, 0 rgba(0, 0, 0, 0.3);
+}
+
+.pricing-section .card-header{
+    background: #fff;
+    font-weight: 700;
+    font-size: 25px;
+    padding: 20px !important;
+}
+
+.pricing-section li{
+    font-size: 14px;
+    font-weight: 400;
+    margin: 12px 0;
+    color: #606066;
+}
+
+.pricing-section .dolar{
+    font-size: 30px;
+    line-height: 2;
+    color: #606066;
+}
+
+.pricing-section .card-footer{
+    background: #fff;
+    padding: 20px 0!important;
+}
+
+.pricing-section a{
+    padding: 8px 20px;
+    outline: none;
+    border: 1px solid #16c9f6;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #16c9f6;
+    font-size: 14px;
+    line-height: 12px;
+    font-weight: 700;
+    transition: all 0.4s;
+}
+
+.card:hover a:hover, .card:hover a{
+    color: #fff;
+    background: #16c9f6;
+    box-shadow: 0, 0, 20px, 0 rgba(0, 0, 0, 0.3);
+}
+
+.card:hover .card-header, .card:hover .dolar{
+    color: #16c9f6;
+}
+
+
+/* =================================pricing section ends======================================== */
+
+
+
+/* =================================costomer section start======================================== */
+    .clients-section{
+        width: 100%;
+        height: 100vh;
+        padding: 80px 0;
+    }
+
+    .box{
+        text-align: center;
+        border: 1px solid #eaf0ed;
+        box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.3);
+        border-radius: 5px;
+        transition: 0.4s ease;
+    }
+
+    .box h4{
+        color: #606066;
+        font-size: 20px;
+        font-family: 'Handlee', cursive;
+        font-weight: 700;
+    }
+
+    .box h6{
+        padding-bottom: 18px;
+    }
+
+    .box p{
+        text-align: justify;
+    }
+
+    .box:hover{
+        background: #e7b4b4;
+    }
+
+    .box:hover p{
+        color: white;
+    }
+
+    .carousel-indicators{
+        position: absolute;
+        right: 0;
+        bottom: -60px!important;
+    }
+
+    .carousel-indicators li{
+        background: #16c9f6!important;
+    }
+
+    .box a {
+        position: relative;
+    }
+
+    .box a img{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin-top: 20px;
+    }
+
+    .box a::after{
+        content: "\f10d";
+        font-family: FontAwesome;
+        width: 40px;
+        height: 40px;
+        background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);
+        color: white;
+        position: absolute;
+        top: 120%;
+        left: 70%;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .carousel-control-prev-icon{
+        color: #2e2;
+    }
+/* =================================costomer section ends======================================== */
+
+
+
+
+/* =================================contact us section start======================================== */
+    .contact-section{
+        width: 100%;
+        height: 100vh;
+        padding: 80px 0;
+        position: relative;
+    }
+
+    .contact-section::before{
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background: linear-gradient(330deg, #16c9f6 55%, #fff 0);
+        z-index: -1;
+    }
+
+/* =================================contact us section ends======================================== */
+
+
+
+/* =================================newsletter us section start======================================== */
+    .newsletter{
+        width: 100%;
+        height: auto;
+        margin: 80px auto;
+    }
+
+    .news-input{
+        border-radius: 100px 0px 0px 100px;
+        min-width: 150px;
+        min-height: 45px;
+       
+    }
+
+
+
+
+    .input-group-text{
+        border-radius: 0px 100px 100px 0px;
+        background: #16c9f6;
+        color: #fff;
+        min-width: 130px;
+        min-height: 45px;
+    }
+
+/* =================================newsletter us section ends======================================== */
+
+
+
+/* =================================footer section start======================================== */
+.footer{
+    width: 100%;
+    height: auto;
+    padding: 74px 0px 15px 0px;
+    position: relative;
+    background: #00abff;
+}
+
+.footer h2{
+    font-size: 25px;
+    color: #eaf0ed;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+}  
+
+.footer .icon{
+    border-radius: 5px;
+}
+
+.icon:hover{
+    color: #c3ff00;
+    background: #2e2e2e;
+}
+
+.list{
+    text-align: center;
+    color: white;
+    transition: all 0.4s;
+}
+    
+.list:hover{
+    margin-left: 20px;
+}
+
+.arrow{
+    color: #f48515;
+}
+
+
+
+.footer .news-input{
+    min-width: 100px;
+    min-height: 25px;
+}
+
+.footer .input-group-text{
+    min-width: 10px;
+    min-height: 25px;
+}
+
+#myBtn{
+    position: fixed;
+    bottom: 30px;
+    right: 35px;
+    z-index: 99;
+    border: none;
+    background: #c3ff00;
+    color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+/* =================================footer section ends======================================== */
